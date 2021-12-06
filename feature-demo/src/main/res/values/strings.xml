@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Streamlabs Demo</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="demo_profile_label">Profile</string>
+    <string name="demo_feed_label">Feed</string>
+
+    <!-- ProfileFragment -->
+    <string name="profile_videos">%1$d videos</string>
+    <string name="profile_following">Following</string>
+    <string name="profile_fans">Fans</string>
+    <string name="profile_hearts">Hearts</string>
+    <string name="profile_edit_profile">Edit profile</string>
+    <string name="profile_next">Next</string>
+    <string name="profile_description">Not bio yet</string>
+
+    <!-- FeedFragment -->
+    <string name="feed_previous">Previous</string>
+</resources>

@@ -1,4 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
-<manifest package="com.streamlabs.feature_demo">
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.streamlabs.feature_demo">
 
+    <application>
+        <activity
+            android:name=".DemoActivity"
+            android:exported="true"
+            android:label=""
+            android:theme="@style/Theme.StreamlabsDemo.NoActionBar">
+        </activity>
+    </application>
 </manifest>

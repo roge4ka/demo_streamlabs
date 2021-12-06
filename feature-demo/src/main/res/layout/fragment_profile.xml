@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.streamlabs.feature_demo.profile.ui.ProfileFragment">
+
+    <ImageView
+        android:id="@+id/logoImage"
+        android:layout_width="160dp"
+        android:layout_height="160dp"
+        android:layout_marginTop="32dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="ContentDescription"
+        tools:src="@drawable/demo_ic_user_photo" />
+
+    <TextView
+        android:id="@+id/userVideos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:background="#0000FF"
+        android:textColor="#333333"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="@+id/logoImage"
+        app:layout_constraintStart_toStartOf="@+id/logoImage"
+        app:layout_constraintTop_toBottomOf="@+id/logoImage"
+        tools:text="10 videos" />
+
+    <TextView
+        android:id="@+id/followingCountText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:textColor="#333333"
+        app:layout_constraintEnd_toStartOf="@+id/fansCountText"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/userVideos"
+        tools:text="42" />
+
+    <TextView
+        android:id="@+id/followingCountLabelText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="@string/profile_following"
+        android:textColor="#333333"
+        app:layout_constraintEnd_toEndOf="@+id/followingCountText"
+        app:layout_constraintStart_toStartOf="@+id/followingCountText"
+        app:layout_constraintTop_toBottomOf="@+id/followingCountText" />
+
+    <TextView
+        android:id="@+id/fansCountText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#333333"
+        app:layout_constraintEnd_toStartOf="@+id/heartsCountText"
+        app:layout_constraintStart_toEndOf="@+id/followingCountText"
+        app:layout_constraintTop_toTopOf="@+id/followingCountText"
+        tools:text="42" />
+
+
+    <TextView
+        android:id="@+id/fansCountLabelText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/profile_fans"
+        android:textColor="#333333"
+        app:layout_constraintEnd_toEndOf="@+id/fansCountText"
+        app:layout_constraintStart_toStartOf="@+id/fansCountText"
+        app:layout_constraintTop_toTopOf="@+id/followingCountLabelText" />
+
+    <TextView
+        android:id="@+id/heartsCountText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#333333"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/fansCountText"
+        app:layout_constraintTop_toTopOf="@+id/fansCountText"
+        tools:text="42" />
+
+    <TextView
+        android:id="@+id/hearsCountLabelText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/profile_hearts"
+        android:textColor="#333333"
+        app:layout_constraintEnd_toEndOf="@+id/heartsCountText"
+        app:layout_constraintStart_toStartOf="@+id/heartsCountText"
+        app:layout_constraintTop_toTopOf="@+id/fansCountLabelText" />
+
+    <TextView
+        android:id="@+id/descriptionText"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:gravity="center"
+        android:text="@string/profile_description"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editButton" />
+
+    <Button
+        android:id="@+id/editButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:background="@drawable/profile_edit_button_background"
+        android:text="@string/profile_edit_profile"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/fansCountLabelText" />
+
+    <Button
+        android:id="@+id/buttonNext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="32dp"
+        android:text="@string/profile_next"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

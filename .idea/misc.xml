@@ -3,6 +3,18 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.19791666666666666" />
+        <entry key="app/src/main/res/layout/content_main.xml" value="0.19791666666666666" />
+        <entry key="app/src/main/res/layout/fragment_first.xml" value="0.19791666666666666" />
+        <entry key="feature-demo/src/main/res/drawable/feed_ic_heart.xml" value="0.371875" />
+        <entry key="feature-demo/src/main/res/drawable/profile_edit_button_background.xml" value="0.2140625" />
+        <entry key="feature-demo/src/main/res/layout/activity_main.xml" value="0.19791666666666666" />
+        <entry key="feature-demo/src/main/res/layout/content_main.xml" value="0.19791666666666666" />
+        <entry key="feature-demo/src/main/res/layout/feed_item.xml" value="0.25" />
+        <entry key="feature-demo/src/main/res/layout/fragment_feed.xml" value="0.19791666666666666" />
+        <entry key="feature-demo/src/main/res/layout/fragment_first.xml" value="0.19791666666666666" />
+        <entry key="feature-demo/src/main/res/layout/fragment_profile.xml" value="0.2" />
+        <entry key="feature-demo/src/main/res/menu/menu_main.xml" value="0.19791666666666666" />
         <entry key="sources/domain/domain-demo/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.2140625" />
         <entry key="sources/feature/feature-demo/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.2140625" />
       </map>
