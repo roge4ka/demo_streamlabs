@@ -6,6 +6,7 @@ Demo application for streamlabs
 #without DI
 #Koil
 
-<video width="320" height="240" controls>
-  <source src="/home/egor/Desktop/demo.webm" type="video/mp4">
-</video>
+
+
+https://user-images.githubusercontent.com/30770010/145001347-be681bc8-c8f7-4280-8709-1c84843d6f96.mp4
+
